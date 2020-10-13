@@ -17,3 +17,6 @@ C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\obj\Debug\Tim
 C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\obj\Debug\TimerApp.csproj.CoreCompileInputs.cache
 C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\obj\Debug\TimerApp.exe
 C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\obj\Debug\TimerApp.pdb
+C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\obj\Debug\TimerApp.csproj.CopyComplete
+C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\bin\Debug\MakeLog.dll
+C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\bin\Debug\MakeLog.pdb
