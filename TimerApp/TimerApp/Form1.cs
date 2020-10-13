@@ -60,6 +60,8 @@ namespace TimerApp
             TimerCallback resDelegate = new TimerCallback(ResCallBack);
 
             int timerTime = resTime * 60000;
+            DateTime addTime = dateTime.AddMinutes(resTime);
+            FinTimer.Text = String.Format("終了予定時刻：{0}時{1}分", addTime.Hour, addTime.Minute);
             thrTime = new System.Threading.Timer(resDelegate, null, timerTime, timerTime);
         }
 

@@ -33,6 +33,8 @@
             this.radio30 = new System.Windows.Forms.RadioButton();
             this.radio60 = new System.Windows.Forms.RadioButton();
             this.radio120 = new System.Windows.Forms.RadioButton();
+            this.FinTime = new System.Windows.Forms.Label();
+            this.FinTimer = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // DisplayTime
@@ -89,11 +91,30 @@
             this.radio120.Text = "120分";
             this.radio120.UseVisualStyleBackColor = true;
             // 
+            // FinTime
+            // 
+            this.FinTime.AutoSize = true;
+            this.FinTime.Location = new System.Drawing.Point(490, 374);
+            this.FinTime.Name = "FinTime";
+            this.FinTime.Size = new System.Drawing.Size(0, 24);
+            this.FinTime.TabIndex = 8;
+            // 
+            // FinTimer
+            // 
+            this.FinTimer.AutoSize = true;
+            this.FinTimer.Location = new System.Drawing.Point(426, 398);
+            this.FinTimer.Name = "FinTimer";
+            this.FinTimer.Size = new System.Drawing.Size(166, 24);
+            this.FinTimer.TabIndex = 9;
+            this.FinTimer.Text = "終了予定時刻：";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.FinTimer);
+            this.Controls.Add(this.FinTime);
             this.Controls.Add(this.radio120);
             this.Controls.Add(this.radio60);
             this.Controls.Add(this.radio30);
@@ -113,6 +134,8 @@
         private System.Windows.Forms.RadioButton radio30;
         private System.Windows.Forms.RadioButton radio60;
         private System.Windows.Forms.RadioButton radio120;
+        private System.Windows.Forms.Label FinTime;
+        private System.Windows.Forms.Label FinTimer;
     }
 }
 
