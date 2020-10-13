@@ -55,19 +55,33 @@ namespace TimerApp
 
         public void StartTimer(int resTime)
         {
+            //ボタンを押させない
+            radio30.Enabled = false;
+            radio60.Enabled = false;
+            radio120.Enabled = false;
+
             System.Threading.Timer thrTime = null;
             //タイマー終了時に呼び出す関数
             TimerCallback resDelegate = new TimerCallback(ResCallBack);
 
+            //タイマー終了までの分数を算出
             int timerTime = resTime * 60000;
+
+            //終了時刻の表示
             DateTime addTime = dateTime.AddMinutes(resTime);
             FinTimer.Text = String.Format("終了予定時刻：{0}時{1}分", addTime.Hour, addTime.Minute);
+
+            //指定分数後に指定の関数を呼び出す
             thrTime = new System.Threading.Timer(resDelegate, null, timerTime, timerTime);
         }
 
         public void ResCallBack(object obj) 
         {
             MessageBox.Show("タイマー", "タイマーが終了しました", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            //ボタンを押せる用に変更
+            radio30.Enabled = true;
+            radio60.Enabled = true;
+            radio120.Enabled = true;
         }
     }
 }
