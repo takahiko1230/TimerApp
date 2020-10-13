@@ -11,7 +11,6 @@ C:\Users\takah\OneDrive\ドキュメント\TimerApp\TimerApp\obj\Debug\TimerApp.
 C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\bin\Debug\TimerApp.exe.config
 C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\bin\Debug\TimerApp.exe
 C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\bin\Debug\TimerApp.pdb
-C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\obj\Debug\TimerApp.csprojAssemblyReference.cache
 C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\obj\Debug\TimerApp.Form1.resources
 C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\obj\Debug\TimerApp.Properties.Resources.resources
 C:\Users\takah\OneDrive\ドキュメント\Timer\TimerApp\TimerApp\obj\Debug\TimerApp.csproj.GenerateResource.cache
