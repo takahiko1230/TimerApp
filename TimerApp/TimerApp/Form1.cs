@@ -106,8 +106,10 @@ namespace TimerApp
             {
                 // はいボタンをクリックしたときはウィンドウを閉じる
                 e.Cancel = true;
-                Logger.Close();
             }
+            //はいを押したときにログを終了する
+            Logger.WriteLine("プロセスを終了します");
+            Logger.Close();
         }
     }
 }
