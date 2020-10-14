@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MakeLog">
+    <Reference Include="MakeLog, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\source\repos\MakeLog\MakeLog\bin\Debug\MakeLog.dll</HintPath>
     </Reference>
     <Reference Include="System" />

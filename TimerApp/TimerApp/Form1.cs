@@ -49,18 +49,18 @@ namespace TimerApp
             //チェックボックスごとの計測
             if (radio30.Checked)
             {
-                StartTimer(30);
                 Logger.WriteLine("30分が選択されました");
+                StartTimer(30);
             }
             if (radio60.Checked)
             {
-                StartTimer(60);
                 Logger.WriteLine("60分が選択されました");
+                StartTimer(60);
             }
             if (radio120.Checked)
             {
-                StartTimer(120);
                 Logger.WriteLine("120分が選択されました");
+                StartTimer(120);
             }
         }
 
@@ -94,6 +94,7 @@ namespace TimerApp
             radio30.Enabled = true;
             radio60.Enabled = true;
             radio120.Enabled = true;
+            FinTimer.Text = String.Format("終了予定時刻：");
             Logger.WriteLine("タイマー終了");
         }
 
